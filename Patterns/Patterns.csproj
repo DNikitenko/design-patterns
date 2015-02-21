@@ -41,6 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Composite\Implementation\Chord.cs" />
+    <Compile Include="Composite\Enums\NoteEnum.cs" />
+    <Compile Include="Composite\Interfaces\IChord.cs" />
+    <Compile Include="Composite\Interfaces\ISound.cs" />
+    <Compile Include="Composite\Implementation\SingleNote.cs" />
+    <Compile Include="Composite\Factories\SoundFactory.cs" />
+    <Compile Include="Composite\TestExamples\CompositeTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
