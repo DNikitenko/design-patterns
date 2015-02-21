@@ -14,6 +14,9 @@ namespace Patterns.Composite.TestExamples
     /// </summary>
     static class CompositeTest
     {
+        /// <summary>
+        /// Run test
+        /// </summary>
         public static void Run()
         {
             //Here is a music we want to play
