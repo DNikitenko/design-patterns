@@ -14,7 +14,7 @@ namespace Patterns.Strategy.Interfaces
         /// <summary>
         /// Check if string is correct
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="value">value to validate</param>
         /// <returns></returns>
         public bool Validate(string value);
     }
