@@ -20,7 +20,7 @@ namespace Patterns.Composite
 
         public static ISound CreateChord(IEnumerable<NoteEnum> notes)
         {
-            var singleNotes = notes.ToList().ConvertAll(note => (ISound)(new SingleNote(note)));
+            var singleNotes = notes.ToList().ConvertAll(note => CreateNote(note));
             return new Chord(singleNotes);
         }
     }

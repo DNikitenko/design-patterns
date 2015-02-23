@@ -52,7 +52,7 @@ namespace Patterns.Composite.TestExamples
             }
 
             //And now we finally "play" it (just writing out to console output)
-            foreach (var sound in music)
+            foreach (ISound sound in music)
             {
                 //Here is Composite pattern essence: we call Play() method uniformly for all sounds: chords and single notes
                 sound.Play(true);
