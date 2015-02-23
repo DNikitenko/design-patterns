@@ -1,4 +1,5 @@
 ﻿using Patterns.Composite.TestExamples;
+using Patterns.Strategy.TestExamples;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,8 @@ namespace Patterns
     class Program
     {
         static void Main(string[] args)
-        {
-            CompositeTest.Run();
+        {            
+            StrategyTest.Run();
         }
     }
 }

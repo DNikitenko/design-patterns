@@ -16,6 +16,6 @@ namespace Patterns.Strategy.Interfaces
         /// </summary>
         /// <param name="value">value to validate</param>
         /// <returns></returns>
-        public bool Validate(string value);
+        bool Validate(string value);
     }
 }
