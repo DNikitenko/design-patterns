@@ -11,9 +11,9 @@ namespace Patterns.Strategy.TestExamples
     /// <summary>
     /// Provides Run() method to run Composite pattern test
     /// </summary>
-    static class StrategyTest
+    class StrategyTest : IPatternTest
     {
-        public static void Run()
+        public void Run()
         {
             var validators = new IValidator[]
             {

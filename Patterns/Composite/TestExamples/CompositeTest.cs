@@ -12,12 +12,12 @@ namespace Patterns.Composite.TestExamples
     /// <summary>
     /// Provides Run() method to run Composite pattern test
     /// </summary>
-    static class CompositeTest
+    class CompositeTest : IPatternTest
     {
         /// <summary>
         /// Run test
         /// </summary>
-        public static void Run()
+        public void Run()
         {
             //Here is a music we want to play
             List<ISound> music = new List<ISound>();

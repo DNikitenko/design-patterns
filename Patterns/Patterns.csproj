@@ -48,6 +48,15 @@
     <Compile Include="Composite\Implementation\SingleNote.cs" />
     <Compile Include="Composite\Factories\SoundFactory.cs" />
     <Compile Include="Composite\TestExamples\CompositeTest.cs" />
+    <Compile Include="Decorator\Classes\AttractiveGirlDecorator.cs" />
+    <Compile Include="Decorator\Classes\IntelligentGirlDecorator.cs" />
+    <Compile Include="Decorator\Classes\JazzGirlDecorator.cs" />
+    <Compile Include="Decorator\Classes\NiceAssGirlDecorator.cs" />
+    <Compile Include="Decorator\Classes\SharpDressedGirlDecorator.cs" />
+    <Compile Include="Decorator\Classes\SimpleGirl.cs" />
+    <Compile Include="Decorator\Interfaces\IGirl.cs" />
+    <Compile Include="Decorator\TestExamples\DecoratorTest.cs" />
+    <Compile Include="IPatternTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\Implementation\EmptyStringValidator.cs" />
