@@ -1,4 +1,5 @@
-﻿using Patterns.Composite.TestExamples;
+﻿using Patterns.AbstractFactory.TestExamples;
+using Patterns.Composite.TestExamples;
 using Patterns.Decorator.TestExamples;
 using Patterns.Strategy.TestExamples;
 using System;
@@ -13,7 +14,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new DecoratorTest().Run();
+            new AbstractFactoryTest().Run();
         }
     }
 }

@@ -41,6 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\Factories\GibsonFactory.cs" />
+    <Compile Include="AbstractFactory\Factories\KorgFactory.cs" />
+    <Compile Include="AbstractFactory\Factories\YamahaFactory.cs" />
+    <Compile Include="AbstractFactory\Goods\Gibson\GibsonGuitar.cs" />
+    <Compile Include="AbstractFactory\Goods\Gibson\GibsonSynthesizer.cs" />
+    <Compile Include="AbstractFactory\Goods\Gibson\GibsonViolin.cs" />
+    <Compile Include="AbstractFactory\Goods\Interfaces\IMusicalInstrument.cs" />
+    <Compile Include="AbstractFactory\Goods\Korg\KorgSynthesizer.cs" />
+    <Compile Include="AbstractFactory\Goods\Yamaha\YamahaGuitar.cs" />
+    <Compile Include="AbstractFactory\Goods\Yamaha\YamahaSynthesizer.cs" />
+    <Compile Include="AbstractFactory\Goods\Yamaha\YamahaViolin.cs" />
+    <Compile Include="AbstractFactory\Factories\Interfaces\IMusicalInstrumentFactory.cs" />
+    <Compile Include="AbstractFactory\TestExamples\AbstractFactoryTest.cs" />
     <Compile Include="Composite\Implementation\Chord.cs" />
     <Compile Include="Composite\Enums\NoteEnum.cs" />
     <Compile Include="Composite\Interfaces\IChord.cs" />
