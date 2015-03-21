@@ -57,6 +57,11 @@
     <Compile Include="Bridge\BridgeTest.cs" />
     <Compile Include="Bridge\MapPoint.cs" />
     <Compile Include="Bridge\MapPointRep.cs" />
+    <Compile Include="Command\Implementation\CreateFileCommand.cs" />
+    <Compile Include="Command\Implementation\DeleteFileCommand.cs" />
+    <Compile Include="Command\Implementation\ExitCommand.cs" />
+    <Compile Include="Command\Interfaces\ICommand.cs" />
+    <Compile Include="Command\TestExamples\CommandTest.cs" />
     <Compile Include="Composite\Implementation\Chord.cs" />
     <Compile Include="Composite\Enums\NoteEnum.cs" />
     <Compile Include="Composite\Interfaces\IChord.cs" />
