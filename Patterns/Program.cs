@@ -3,6 +3,7 @@ using Patterns.Bridge;
 using Patterns.Command.TestExamples;
 using Patterns.Composite.TestExamples;
 using Patterns.Decorator.TestExamples;
+using Patterns.Iterator.TestExamples;
 using Patterns.Strategy.TestExamples;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new CommandTest().Run();
+            new IteratorTest().Run();
         }
     }
 }
