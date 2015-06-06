@@ -90,6 +90,14 @@
     <Compile Include="Strategy\Interfaces\IValidator.cs" />
     <Compile Include="Strategy\TestExamples\StrategyTest.cs" />
     <Compile Include="Strategy\TestExamples\TextAsker.cs" />
+    <Compile Include="Visitor\Enums\OperationType.cs" />
+    <Compile Include="Visitor\Nodes\Node.cs" />
+    <Compile Include="Visitor\Nodes\BinaryOperationNode.cs" />
+    <Compile Include="Visitor\Nodes\IntValueNode.cs" />
+    <Compile Include="Visitor\TestExamples\VisitorTest.cs" />
+    <Compile Include="Visitor\Visitors\TreePrinterVisitor.cs" />
+    <Compile Include="Visitor\Visitors\Visitor.cs" />
+    <Compile Include="Visitor\Visitors\XmlPrinterVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

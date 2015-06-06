@@ -17,7 +17,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new IteratorTest().Run();
+            new Patterns.Visitor.TestExamples.VisitorTest().Run();
         }
     }
 }
