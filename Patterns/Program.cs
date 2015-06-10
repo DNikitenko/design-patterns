@@ -1,5 +1,6 @@
 ﻿using Patterns.AbstractFactory.TestExamples;
 using Patterns.Bridge;
+using Patterns.Builder.TestExamples;
 using Patterns.Command.TestExamples;
 using Patterns.Composite.TestExamples;
 using Patterns.Decorator.TestExamples;
@@ -17,7 +18,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new Patterns.Visitor.TestExamples.VisitorTest().Run();
+            new BuilderTest().Run();
         }
     }
 }

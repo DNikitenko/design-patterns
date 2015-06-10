@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,6 +58,11 @@
     <Compile Include="Bridge\BridgeTest.cs" />
     <Compile Include="Bridge\MapPoint.cs" />
     <Compile Include="Bridge\MapPointRep.cs" />
+    <Compile Include="Builder\Builders\GetRequestBuilder.cs" />
+    <Compile Include="Builder\Builders\PostRequestBuilder.cs" />
+    <Compile Include="Builder\Builders\WebRequestBuilder.cs" />
+    <Compile Include="Builder\RequestRunners\DefaultWebRequestManager.cs" />
+    <Compile Include="Builder\TestExamples\BuilderTest.cs" />
     <Compile Include="Command\Implementation\CreateFileCommand.cs" />
     <Compile Include="Command\Implementation\DeleteFileCommand.cs" />
     <Compile Include="Command\Implementation\ExitCommand.cs" />
