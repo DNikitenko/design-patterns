@@ -83,6 +83,14 @@
     <Compile Include="Decorator\Classes\SimpleGirl.cs" />
     <Compile Include="Decorator\Interfaces\IGirl.cs" />
     <Compile Include="Decorator\TestExamples\DecoratorTest.cs" />
+    <Compile Include="FactoryMethod\Factories\FestivalFactory.cs" />
+    <Compile Include="FactoryMethod\Places\Campsite.cs" />
+    <Compile Include="FactoryMethod\Festivals\Hellfest.cs" />
+    <Compile Include="FactoryMethod\Places\Hostel.cs" />
+    <Compile Include="FactoryMethod\Festivals\IFestival.cs" />
+    <Compile Include="FactoryMethod\Places\IPlaceToLive.cs" />
+    <Compile Include="FactoryMethod\Festivals\Tuska.cs" />
+    <Compile Include="FactoryMethod\TestExamples\FactoryMethodTest.cs" />
     <Compile Include="IPatternTest.cs" />
     <Compile Include="Iterator\Classes\BinaryTree.cs" />
     <Compile Include="Iterator\Classes\BinaryTreeDfsIterator.cs" />

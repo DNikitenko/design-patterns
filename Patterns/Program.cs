@@ -4,6 +4,7 @@ using Patterns.Builder.TestExamples;
 using Patterns.Command.TestExamples;
 using Patterns.Composite.TestExamples;
 using Patterns.Decorator.TestExamples;
+using Patterns.FactoryMethod.TestExamples;
 using Patterns.Iterator.TestExamples;
 using Patterns.Strategy.TestExamples;
 using System;
@@ -18,7 +19,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new BuilderTest().Run();
+            new FactoryMethodTest().Run();
         }
     }
 }
