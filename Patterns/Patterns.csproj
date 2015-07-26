@@ -98,6 +98,8 @@
     <Compile Include="Iterator\TestExamples\IteratorTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\ICloneable.cs" />
+    <Compile Include="Prototype\PrototypeTest.cs" />
     <Compile Include="Strategy\Implementation\EmptyStringValidator.cs" />
     <Compile Include="Strategy\Implementation\IntRangeValidator.cs" />
     <Compile Include="Strategy\Implementation\StringIsShitValidator.cs" />
