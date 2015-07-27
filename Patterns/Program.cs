@@ -7,6 +7,7 @@ using Patterns.Decorator.TestExamples;
 using Patterns.FactoryMethod.TestExamples;
 using Patterns.Iterator.TestExamples;
 using Patterns.Prototype;
+using Patterns.Singleton;
 using Patterns.Strategy.TestExamples;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new PrototypeTest().Run();
+            new SingletonTest().Run();
         }
     }
 }
