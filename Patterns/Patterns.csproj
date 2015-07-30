@@ -55,6 +55,12 @@
     <Compile Include="AbstractFactory\Goods\Yamaha\YamahaViolin.cs" />
     <Compile Include="AbstractFactory\Factories\Interfaces\IMusicalInstrumentFactory.cs" />
     <Compile Include="AbstractFactory\TestExamples\AbstractFactoryTest.cs" />
+    <Compile Include="Adapter\AdapterTest.cs" />
+    <Compile Include="Adapter\TextRetrievers\FileTextRetriever.cs" />
+    <Compile Include="Adapter\TextRetrievers\ITextRetriever.cs" />
+    <Compile Include="Adapter\TextRetrievers\TextRetrieverFactory.cs" />
+    <Compile Include="Adapter\TextViewer.cs" />
+    <Compile Include="Adapter\TextRetrievers\WebPageRetriever.cs" />
     <Compile Include="Bridge\BridgeTest.cs" />
     <Compile Include="Bridge\MapPoint.cs" />
     <Compile Include="Bridge\MapPointRep.cs" />

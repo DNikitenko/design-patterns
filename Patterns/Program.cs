@@ -1,4 +1,5 @@
 ﻿using Patterns.AbstractFactory.TestExamples;
+using Patterns.Adapter;
 using Patterns.Bridge;
 using Patterns.Builder.TestExamples;
 using Patterns.Command.TestExamples;
@@ -21,7 +22,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new SingletonTest().Run();
+            new AdapterTest().Run();
         }
     }
 }
