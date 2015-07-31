@@ -89,6 +89,8 @@
     <Compile Include="Decorator\Classes\SimpleGirl.cs" />
     <Compile Include="Decorator\Interfaces\IGirl.cs" />
     <Compile Include="Decorator\TestExamples\DecoratorTest.cs" />
+    <Compile Include="Facade\DownloadManager.cs" />
+    <Compile Include="Facade\FacadeTest.cs" />
     <Compile Include="FactoryMethod\Factories\FestivalFactory.cs" />
     <Compile Include="FactoryMethod\Places\Campsite.cs" />
     <Compile Include="FactoryMethod\Festivals\Hellfest.cs" />

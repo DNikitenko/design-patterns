@@ -5,6 +5,7 @@ using Patterns.Builder.TestExamples;
 using Patterns.Command.TestExamples;
 using Patterns.Composite.TestExamples;
 using Patterns.Decorator.TestExamples;
+using Patterns.Facade;
 using Patterns.FactoryMethod.TestExamples;
 using Patterns.Iterator.TestExamples;
 using Patterns.Prototype;
@@ -22,7 +23,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new AdapterTest().Run();
+            new FacadeTest().Run();
         }
     }
 }
