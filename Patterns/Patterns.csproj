@@ -69,6 +69,14 @@
     <Compile Include="Builder\Builders\WebRequestBuilder.cs" />
     <Compile Include="Builder\RequestRunners\DefaultWebRequestManager.cs" />
     <Compile Include="Builder\TestExamples\BuilderTest.cs" />
+    <Compile Include="ChainOfResponsibility\ChainOfResponsibilityTest.cs" />
+    <Compile Include="ChainOfResponsibility\Employees\CarebookEmployee.cs" />
+    <Compile Include="ChainOfResponsibility\Employees\Developer.cs" />
+    <Compile Include="ChainOfResponsibility\Employees\ProductManager.cs" />
+    <Compile Include="ChainOfResponsibility\Employees\TeamLeader.cs" />
+    <Compile Include="ChainOfResponsibility\Employees\Tester.cs" />
+    <Compile Include="ChainOfResponsibility\IFunctionalityChangeRequestHandler.cs" />
+    <Compile Include="ChainOfResponsibility\TeamFactory.cs" />
     <Compile Include="Command\Implementation\CreateFileCommand.cs" />
     <Compile Include="Command\Implementation\DeleteFileCommand.cs" />
     <Compile Include="Command\Implementation\ExitCommand.cs" />

@@ -2,6 +2,7 @@
 using Patterns.Adapter;
 using Patterns.Bridge;
 using Patterns.Builder.TestExamples;
+using Patterns.ChainOfResponsibility;
 using Patterns.Command.TestExamples;
 using Patterns.Composite.TestExamples;
 using Patterns.Decorator.TestExamples;
@@ -23,7 +24,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new FacadeTest().Run();
+            new ChainOfResponsibilityTest().Run();
         }
     }
 }
