@@ -112,6 +112,11 @@
     <Compile Include="Iterator\Classes\BinaryTreeDfsIterator.cs" />
     <Compile Include="Iterator\Classes\BinaryTreeNode.cs" />
     <Compile Include="Iterator\TestExamples\IteratorTest.cs" />
+    <Compile Include="Mediator\Classes\SingleThreadedChatRoom.cs" />
+    <Compile Include="Mediator\Classes\ChatUser.cs" />
+    <Compile Include="Mediator\Interfaces\IChatRoom.cs" />
+    <Compile Include="Mediator\Interfaces\IUser.cs" />
+    <Compile Include="Mediator\MediatorTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\ICloneable.cs" />
