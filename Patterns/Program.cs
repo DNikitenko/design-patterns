@@ -25,7 +25,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new MediatorTest().Run();
+            new Memento.MementoExample().Run();
         }
     }
 }
