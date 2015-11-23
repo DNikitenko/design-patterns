@@ -126,6 +126,10 @@
     <Compile Include="Memento\Interfaces\IStringChangeMemento.cs" />
     <Compile Include="Memento\MementoExample.cs" />
     <Compile Include="Memento\StringMemento.cs" />
+    <Compile Include="Observer\MetalEvent.cs" />
+    <Compile Include="Observer\MetalEventNewsmaker.cs" />
+    <Compile Include="Observer\MetalFan.cs" />
+    <Compile Include="Observer\ObserverExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\ICloneable.cs" />

@@ -10,6 +10,7 @@ using Patterns.Facade;
 using Patterns.FactoryMethod.TestExamples;
 using Patterns.Iterator.TestExamples;
 using Patterns.Mediator;
+using Patterns.Observer;
 using Patterns.Prototype;
 using Patterns.Singleton;
 using Patterns.Strategy.TestExamples;
@@ -25,7 +26,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new Memento.MementoExample().Run();
+            new ObserverExample().Run();
         }
     }
 }
