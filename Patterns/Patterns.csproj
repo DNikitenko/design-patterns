@@ -136,6 +136,11 @@
     <Compile Include="Prototype\PrototypeTest.cs" />
     <Compile Include="Singleton\RiskCalculator.cs" />
     <Compile Include="Singleton\SingletonTest.cs" />
+    <Compile Include="State\States\AdditionalInformationWizardState.cs" />
+    <Compile Include="State\States\InitialWizardState.cs" />
+    <Compile Include="State\StateTest.cs" />
+    <Compile Include="State\Wizard.cs" />
+    <Compile Include="State\States\WizardState.cs" />
     <Compile Include="Strategy\Implementation\EmptyStringValidator.cs" />
     <Compile Include="Strategy\Implementation\IntRangeValidator.cs" />
     <Compile Include="Strategy\Implementation\StringIsShitValidator.cs" />

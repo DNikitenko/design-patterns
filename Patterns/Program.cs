@@ -13,6 +13,7 @@ using Patterns.Mediator;
 using Patterns.Observer;
 using Patterns.Prototype;
 using Patterns.Singleton;
+using Patterns.State;
 using Patterns.Strategy.TestExamples;
 using System;
 using System.Collections.Generic;
@@ -26,7 +27,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new ObserverExample().Run();
+            new StateTest().Run();
         }
     }
 }
