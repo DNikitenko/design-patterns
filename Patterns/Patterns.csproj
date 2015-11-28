@@ -147,6 +147,9 @@
     <Compile Include="Strategy\Interfaces\IValidator.cs" />
     <Compile Include="Strategy\TestExamples\StrategyTest.cs" />
     <Compile Include="Strategy\TestExamples\TextAsker.cs" />
+    <Compile Include="Template Method\ReportBuilder.cs" />
+    <Compile Include="Template Method\PrimEcoEnergoReportGenerator.cs" />
+    <Compile Include="Template Method\TemplateMethodTest.cs" />
     <Compile Include="Visitor\Enums\OperationType.cs" />
     <Compile Include="Visitor\Nodes\Node.cs" />
     <Compile Include="Visitor\Nodes\BinaryOperationNode.cs" />

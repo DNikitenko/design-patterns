@@ -15,6 +15,7 @@ using Patterns.Prototype;
 using Patterns.Singleton;
 using Patterns.State;
 using Patterns.Strategy.TestExamples;
+using Patterns.Template_Method;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            new StateTest().Run();
+            new TemplateMethodTest().Run();
         }
     }
 }
